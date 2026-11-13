@@ -317,7 +317,7 @@ summary.resume-row:focus-visible { outline: 2px solid var(--burgundy); outline-o
 }
 details[open] .resume-toggle::before { transform: rotate(-135deg); }
 .resume-desc {
-    margin: 0; padding: 0 16px 24px calc(120px + 20px + 16px + 18px);
+    margin: 0; padding: 0 16px 24px calc(120px + 20px + 16px);
     color: var(--text-sec); line-height: 1.6;
 }
 .resume-desc li { margin-bottom: 8px; }
@@ -367,7 +367,7 @@ footer h2 { color: var(--burgundy); font-size: clamp(2rem, 5vw, 4rem); }
     .resume-row { grid-template-columns: 1fr 20px; gap: 6px; }
     .resume-row .resume-date, .resume-row .resume-role, .resume-row .resume-place { grid-column: 1; }
     .resume-row .resume-toggle { grid-column: 2; grid-row: 1; }
-    .resume-desc { padding-left: 34px; }
+    .resume-desc { padding-left: 16px; }
     .resume-place { text-align: left; }
     .pdf-container { grid-template-columns: 1fr; }
 }
